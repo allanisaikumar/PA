@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.LogManager\\PA.Log.Manager.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.LogManager\\PA.Log.Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.LogManager\\PA.Log.Manager.csproj",
+        "projectName": "PA.Log.Manager",
+        "projectPath": "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.LogManager\\PA.Log.Manager.csproj",
+        "packagesPath": "C:\\Users\\alsaikumar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.LogManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alsaikumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/deloittebsg/_packaging/APP1721/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.Utils\\PA.Utils.csproj": {
+                "projectPath": "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.Utils\\PA.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.Utils\\PA.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.Utils\\PA.Utils.csproj",
+        "projectName": "PA.Utils",
+        "projectPath": "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.Utils\\PA.Utils.csproj",
+        "packagesPath": "C:\\Users\\alsaikumar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alsaikumar\\Repos\\ASK\\PA-TASK\\PA\\PA.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alsaikumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/deloittebsg/_packaging/APP1721/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

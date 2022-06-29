@@ -1,0 +1,29 @@
+<div class="container text-center">
+    <h4>{{title}}</h4>
+  </div>
+  <div class="container">
+    <div class="row" *ngIf="dataLoaded">
+      <div class="search-hero">
+        <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder=" Start searching Api ID">
+      </div>
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>API ID</th>
+          <th>Count</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let log of logSummary | filter:searchText">
+          <td>{{log.apiId}}</td>
+          <td>{{log.count}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row">
+      <div class="spinner-border" role="status" *ngIf="!dataLoaded">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </div>

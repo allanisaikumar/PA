@@ -1,0 +1,49 @@
+<div class="container text-center">
+    <h4>{{title}}</h4>
+</div>
+<div class="container">
+    <div class="row  p-1">
+        <div class="col-md-7">
+            <input class="form-control" type="text" id="searchbox" name="searchid" [(ngModel)]="searchid" autocomplete="off"
+                placeholder=" Start searching Api ID">
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" id="dummylabel" title="Search" type="button" name="search"
+                (click)="searchClick()">Search</button>
+        </div>
+        <div class="col-md-2">
+            <div class="spinner-border" role="status" *ngIf="showloader;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row p-1">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="RequestTime" class="form-label">Request Time</label>
+                <input type="text" class="form-control" id="RequestTime" [(ngModel)]="logdetail.requestTime">
+            </div>
+            <div class="col-md-4">
+                <label for="ResponseTime" class="form-label">Response Time</label>
+                <input type="text" class="form-control" id="ResponseTime" [(ngModel)]="logdetail.responseTime">
+            </div>
+            <div class="col-md-4">
+                <label for="Duration" class="form-label">Duration</label>
+                <input type="text" class="form-control" id="Duration" [(ngModel)]="logdetail.duration">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="exampleFormControlTextarea1" class="form-label">Request</label>
+                <textarea class="form-control" title="Request" id="log-detial-request" rows="10"
+                    [(ngModel)]="logdetail.request"></textarea>
+            </div>
+            <div class="col-md-6">
+                <label for="exampleFormControlTextarea1" class="form-label">Response</label>
+                <textarea class="form-control" title="Response" id="log-detial-response" rows="10"
+                    [(ngModel)]="logdetail.response"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
